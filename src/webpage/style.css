@@ -1,0 +1,56 @@
+.hd {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.mg {
+    display: block;
+    font-size: 19px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.danmuku {
+    transition: all 0.3s ease;
+    text-shadow: 0 2px black, 2px 0 black, -2px 0 black, 0 -2px black;
+    color: white;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.danmuku.sc > * {
+    padding: 5px;
+}
+
+.danmuku.sc {
+    --sc-bg: #801aff;
+    --sc-hd-bg: #b53cfc;
+
+    background: var(--sc-bg);
+}
+
+.danmuku.sc .hd {
+    background: var(--sc-hd-bg);
+}
+
+.danmuku.sc.sc-1 {
+    --sc-hd-bg: #209ba2;
+    --sc-bg: #3cfce6;
+}
+
+.danmuku.sc.sc-time {
+    --sc-bg: none;
+    font-size: 50px;
+
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    margin: 0;
+    /*background-image: url("../webpriv/live-bga-top.png");*/
+}

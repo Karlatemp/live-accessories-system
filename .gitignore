@@ -1,0 +1,12 @@
+/src/webpriv
+/src/webpage/hi.txt
+
+*.zip
+*.cmd
+
+build/
+.idea/
+.gradle/
+
+/gradle/wrapper/gradle-wrapper.jar
+

@@ -1,0 +1,11 @@
+// 这里是 Danmu System 的设置
+
+{
+  "timer-clock": {
+    // 是否启动最上方时钟
+    enabled: true,
+    // 背景
+    bg: 'url("../webpriv/live-bga-top.png")',
+  },
+}
+
